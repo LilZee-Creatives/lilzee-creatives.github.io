@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LilZee Studios</title>
+<meta name="description" content="Small, calm desktop apps that respect your work. Made with love by LilZee Studios.">
+<style>
+  :root { --paper:#F4F4F0; --sheet:#FBFBF9; --ink:#1E2027; --muted:#62656F; --rule:#DCDCD4; --a:#5A6BFF; --b:#A16AFF; color-scheme: light }
+  @media (prefers-color-scheme: dark) { :root { --paper:#141519; --sheet:#1B1C21; --ink:#E5E3DD; --muted:#9093A0; --rule:#2C2E35; --a:#7E8CFF; --b:#C29BFF; color-scheme: dark } }
+  * { box-sizing: border-box }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.6 ui-monospace, "SF Mono", Menlo, Consolas, monospace; -webkit-font-smoothing: antialiased }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 72px max(20px, env(safe-area-inset-right, 0px)) 48px max(20px, env(safe-area-inset-left, 0px)) }
+  h1 { font-size: clamp(34px, 6vw, 56px); line-height: 1.1; margin: 0; letter-spacing: -.01em }
+  .ink { background: linear-gradient(100deg, var(--a), var(--b)); -webkit-background-clip: text; background-clip: text; color: transparent }
+  .lede { color: var(--muted); max-width: 56ch; margin: 18px 0 0 }
+  h2 { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); font-weight: 400; margin: 64px 0 16px }
+  .apps { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px }
+  .app { display: flex; gap: 16px; align-items: flex-start; text-decoration: none; color: inherit; background: var(--sheet); border: 1px solid var(--rule); border-radius: 12px; padding: 20px; transition: border-color .15s, transform .15s }
+  .app:hover { border-color: var(--ink); transform: translateY(-1px) }
+  .app img { width: 52px; height: 52px; border-radius: 12px; flex: none }
+  .app b { display: block; font-size: 18px }
+  .app span { color: var(--muted); font-size: 14px }
+  footer { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 13.5px }
+  :focus-visible { outline: 2px solid var(--a); outline-offset: 3px }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <h1>LilZee <span class="ink">Studios</span></h1>
+  <p class="lede">Small, calm apps for Mac and Windows. They run on your computer, keep your work private, and get out of the way.</p>
+
+  <h2>Apps</h2>
+  <div class="apps">
+    <a class="app" href="/ribbon/">
+      <img src="/ribbon/assets/icon.png" alt="">
+      <div><b>Ribbon</b><span>A typewriter editor for novelists, with 100% offline AI.</span></div>
+    </a>
+  </div>
+
+  <footer>© <span id="y">2026</span> LilZee Studios · Made with ❤️ by LilZee Studios</footer>
+</main>
+<script>document.getElementById("y").textContent = new Date().getFullYear()</script>
+</body>
+</html>
