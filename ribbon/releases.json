@@ -1,6 +1,6 @@
 {
   "repo": "LilZee-Creatives/rb-releases",
-  "updated": "2026-11-14T14:39:25.336Z",
+  "updated": "2026-11-14T17:39:09.047Z",
   "releases": [
     {
       "tag": "v1.0.0",
@@ -14,19 +14,19 @@
           "name": "Ribbon_1.0.0_aarch64.dmg",
           "url": "https://github.com/LilZee-Creatives/rb-releases/releases/download/v1.0.0/Ribbon_1.0.0_aarch64.dmg",
           "size": 9633331,
-          "downloads": 1
+          "downloads": 2
         },
         {
           "name": "Ribbon_1.0.0_x64-setup.exe",
           "url": "https://github.com/LilZee-Creatives/rb-releases/releases/download/v1.0.0/Ribbon_1.0.0_x64-setup.exe",
           "size": 6555017,
-          "downloads": 1
+          "downloads": 2
         },
         {
           "name": "Ribbon_1.0.0_x64.dmg",
           "url": "https://github.com/LilZee-Creatives/rb-releases/releases/download/v1.0.0/Ribbon_1.0.0_x64.dmg",
           "size": 9642852,
-          "downloads": 1
+          "downloads": 2
         },
         {
           "name": "Ribbon_1.0.0_x64_en-US.msi",
