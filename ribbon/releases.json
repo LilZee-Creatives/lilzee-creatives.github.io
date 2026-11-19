@@ -1,6 +1,6 @@
 {
   "repo": "LilZee-Creatives/rb-releases",
-  "updated": "2026-11-19T07:26:12.867Z",
+  "updated": "2026-11-19T20:37:25.812Z",
   "releases": [
     {
       "tag": "v1.0.0",
@@ -20,7 +20,7 @@
           "name": "Ribbon_1.0.0_x64-setup.exe",
           "url": "https://github.com/LilZee-Creatives/rb-releases/releases/download/v1.0.0/Ribbon_1.0.0_x64-setup.exe",
           "size": 6555017,
-          "downloads": 3
+          "downloads": 4
         },
         {
           "name": "Ribbon_1.0.0_x64.dmg",
